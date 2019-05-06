@@ -3,6 +3,7 @@ workflow "New workflow" {
   resolves = ["Hello World"]
 }
 
+
 action "Hello World" {
   uses = "./action-a"
   env = {
